@@ -1,0 +1,10 @@
+{
+    "name": "Dart Analyzer",
+    "description": "Analyzes Dart code",
+    "iconName": "octicon codescan",
+    "categories": [
+        "continuous-integration",
+        "code-quality",
+        "Dart",
+    ],
+}
