@@ -16,7 +16,7 @@ Our firmware team specializes in low-level [Arduino](https://docs.arduino.cc/lea
 
 #### Firmware Repositories
 
-- **Shared libraries**: [Protobuf](https://github.com/BinghamtonRover/Protobuf) [Firmware Utilities](https://github.com/BinghamtonRover/Firmware-Utilities), [TMC](https://github.com/BinghamtonRover/TMC-Firmware)
+- **Shared libraries**: [Protobuf](https://github.com/BinghamtonRover/Protobuf), [Firmware Utilities](https://github.com/BinghamtonRover/Firmware-Utilities), [TMC](https://github.com/BinghamtonRover/TMC-Firmware)
 - **On-rover firmware**: [Drive](https://github.com/BinghamtonRover/Drive-Firmware), [Electrical](https://github.com/BinghamtonRover/Electrical-Firmware), [Arm](https://github.com/BinghamtonRover/Arm-firmware), [Science](https://github.com/BinghamtonRover/Science-firmware)
 - **Off-rover firmware**: [Antenna Control](https://github.com/BinghamtonRover/Antenna-Firmware), [Motor test board](https://github.com/BinghamtonRover/Motor-Test-Firmware)
 
@@ -26,11 +26,10 @@ Our software team writes the high-level code that helps coordinate the firmware 
 
 #### Software Repositories
 
-- **Shared libraries**: [Protobuf](https://github.com/BinghamtonRover/Protobuf), [Networking](https://github.com/BinghamtonRover/Networking), 
-- **User interfaces**: [Dashboard](https://github.com/BinghamtonRover/Dashboard)
+- **Shared libraries**: [Protobuf](https://github.com/BinghamtonRover/Protobuf), [burt_network](https://github.com/BinghamtonRover/Networking), [Rover-Code](https://github.com/BinghamtonRover/Rover-Code)
+- **User applications**: [Dashboard](https://github.com/BinghamtonRover/Dashboard)
 - **Core programs**: [Subsystems](https://github.com/BinghamtonRover/Subsystems), [Video](https://github.com/BinghamtonRover/Video), [Autonomy](https://github.com/BinghamtonRover/Autonomy)
-- **Helper programs**: [Lidar](https://github.com/BinghamtonRover/Lidar), [Computer Vision](https://github.com/BinghamtonRover/Computer-Vision), [Base Station](https://github.com/BinghamtonRover/Base-Station)
-- **Mono-repos**: [SubsystemsPi](https://github.com/BinghamtonRover/SubsystemsPi), [SecondaryPi](https://github.com/BinghamtonRover/SecondaryPi)
+- **Supporting programs**: [Lidar](https://github.com/BinghamtonRover/Lidar), [Computer Vision](https://github.com/BinghamtonRover/Computer-Vision), [Base Station](https://github.com/BinghamtonRover/Base-Station)
 - **Pub packages**: [flutter_sdl_gamepad](https://pub.dev/packages/flutter_sdl_gamepad), [a_star](https://pub.dev/packages/a_star), [pub_cache](https://pub.dev/packages/pub_cache_server), [typed_isolate](https://pub.dev/packages/typed_isolate)
 
 ### Links
