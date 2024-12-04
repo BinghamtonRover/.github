@@ -12,11 +12,9 @@ We are the Binghamton University Rover Team (BURT), representing Binghamton Univ
 
 ### The Firmware Team
 
-Our firmware team specializes in low-level [Arduino]https://docs.arduino.cc/learn/) code running on [Teensy 4.1 boards](https://www.pjrc.com/store/teensy41.html). The code is designed to be as simple and error-free as possible, with no dynamic memory allocation, following all commands exactly, and reporting all sensor data. Firmware code uses our shared [networking](https://github.com/BinghamtonRover/Firmware-Utilities) and [motor](https://github.com/BinghamtonRover/TMC-Firmware) libraries. 
+Our firmware team specializes in low-level [Arduino](https://docs.arduino.cc/learn/) code running on [Teensy 4.1 boards](https://www.pjrc.com/store/teensy41.html). The code is designed to be as simple and error-free as possible, with no dynamic memory allocation, following all commands exactly, and reporting all sensor data. Firmware code uses our shared [networking](https://github.com/BinghamtonRover/Firmware-Utilities) and [motor](https://github.com/BinghamtonRover/TMC-Firmware) libraries. All firmware repositories should follow the same rough structure as outlined in the [template](https://github.com/BinghamtonRover/Firmware-Template).
 
 #### Firmware Repositories
-
-All firmware repositories should follow the same rough structure as outlined in the [template](https://github.com/BinghamtonRover/Firmware-Template).
 
 - **Shared libraries**: [Protobuf](https://github.com/BinghamtonRover/Protobuf) [Firmware Utilities](https://github.com/BinghamtonRover/Firmware-Utilities), [TMC](https://github.com/BinghamtonRover/TMC-Firmware)
 - **On-rover firmware**: [Drive](https://github.com/BinghamtonRover/Drive-Firmware), [Electrical](https://github.com/BinghamtonRover/Electrical-Firmware), [Arm](https://github.com/BinghamtonRover/Arm-firmware), [Science](https://github.com/BinghamtonRover/Science-firmware)
@@ -32,14 +30,8 @@ Our software team writes the high-level code that helps coordinate the firmware 
 - **User interfaces**: [Dashboard](https://github.com/BinghamtonRover/Dashboard)
 - **Core programs**: [Subsystems](https://github.com/BinghamtonRover/Subsystems), [Video](https://github.com/BinghamtonRover/Video), [Autonomy](https://github.com/BinghamtonRover/Autonomy)
 - **Helper programs**: [Lidar](https://github.com/BinghamtonRover/Lidar), [Computer Vision](https://github.com/BinghamtonRover/Computer-Vision), [Base Station](https://github.com/BinghamtonRover/Base-Station)
+- **Mono-repos**: [SubsystemsPi](https://github.com/BinghamtonRover/SubsystemsPi), [SecondaryPi](https://github.com/BinghamtonRover/SecondaryPi)
 - **Pub packages**: [flutter_sdl_gamepad](https://pub.dev/packages/flutter_sdl_gamepad), [a_star](https://pub.dev/packages/a_star), [pub_cache](https://pub.dev/packages/pub_cache_server), [typed_isolate](https://pub.dev/packages/typed_isolate)
-
-### Repositories
-- [Dashboard](https://github.com/BinghamtonRover/Dashboard)
-- Networking: [Protobuf](https://github.com/BinghamtonRover/Protobuf), [Networking](https://github.com/BinghamtonRover/Networking), [Firmware Utilities](https://github.com/BinghamtonRover/Firmware-Utilities)
-- Onboard code: [Subsystems](https://github.com/BinghamtonRover/Subsystems), [Autonomy](https://github.com/BinghamtonRover/Autonomy), [Video](https://github.com/BinghamtonRover/Video)
-- Firmware: [TMC](https://github.com/BinghamtonRover/TMC-Firmware), [Arm](https://github.com/BinghamtonRover/Arm-firmware), [Science](https://github.com/BinghamtonRover/Science-firmware), [Drive](https://github.com/BinghamtonRover/Drive-Firmware)
-- Pis: [SubsystemsPi](https://github.com/BinghamtonRover/SubsystemsPi), [SecondaryPi](https://github.com/BinghamtonRover/SecondaryPi)
 
 ### Links
 - [Our Wiki at GitBooks](https://bing-rover.gitbook.io/docs)
