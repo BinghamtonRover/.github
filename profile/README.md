@@ -27,8 +27,7 @@ Our software team writes the high-level code that helps coordinate the firmware 
 #### Software Repositories
 
 - **Shared libraries**: [Protobuf](https://github.com/BinghamtonRover/Protobuf), [burt_network](https://github.com/BinghamtonRover/Networking), [Rover-Code](https://github.com/BinghamtonRover/Rover-Code)
-- **User applications**: [Dashboard](https://github.com/BinghamtonRover/Dashboard)
-- **Core programs**: [Subsystems](https://github.com/BinghamtonRover/Subsystems), [Video](https://github.com/BinghamtonRover/Video), [Autonomy](https://github.com/BinghamtonRover/Autonomy)
+- **Core programs**: [Dashboard](https://github.com/BinghamtonRover/Dashboard), [Subsystems](https://github.com/BinghamtonRover/Subsystems), [Video](https://github.com/BinghamtonRover/Video), [Autonomy](https://github.com/BinghamtonRover/Autonomy)
 - **Supporting programs**: [Lidar](https://github.com/BinghamtonRover/Lidar), [Computer Vision](https://github.com/BinghamtonRover/Computer-Vision), [Base Station](https://github.com/BinghamtonRover/Base-Station)
 - **Pub packages**: [flutter_sdl_gamepad](https://pub.dev/packages/flutter_sdl_gamepad), [a_star](https://pub.dev/packages/a_star), [pub_cache](https://pub.dev/packages/pub_cache_server), [typed_isolate](https://pub.dev/packages/typed_isolate)
 
