@@ -22,13 +22,12 @@ Our firmware team specializes in low-level [Arduino](https://docs.arduino.cc/lea
 
 ### The Software Team
 
-Our software team writes the high-level code that helps coordinate the firmware and other devices. The main component here is the [Dashboard](https://github.com/BinghamtonRover/Dashboard), our cross-platform Flutter application for testing, debugging, and operating the rover or any of its components individually. Each Dart program runs on a [Raspberry Pi](https://www.raspberrypi.com/) or similar Linux device and communicates with the other programs via UDP.
+Our software team writes the high-level code that helps coordinate the firmware and other devices. The main component here is the [Dashboard](https://github.com/BinghamtonRover/Dashboard), our cross-platform Flutter application for testing, debugging, and operating the rover or any of its components individually. Each Dart program runs on a [Raspberry Pi](https://www.raspberrypi.com/) or similar Linux device and communicates with the other programs via UDP. All our on-rover programs can be found in our mono-repo, `Rover-Code`. Our networking library appears in the mono-repo as well (the Dashboard uses a git dependency in its `pubspec.yaml`).
 
 #### Software Repositories
 
-- **Shared libraries**: [Protobuf](https://github.com/BinghamtonRover/Protobuf), [burt_network](https://github.com/BinghamtonRover/Networking), [Rover-Code](https://github.com/BinghamtonRover/Rover-Code)
-- **Core programs**: [Dashboard](https://github.com/BinghamtonRover/Dashboard), [Subsystems](https://github.com/BinghamtonRover/Subsystems), [Video](https://github.com/BinghamtonRover/Video), [Autonomy](https://github.com/BinghamtonRover/Autonomy)
-- **Supporting programs**: [Lidar](https://github.com/BinghamtonRover/Lidar), [Computer Vision](https://github.com/BinghamtonRover/Computer-Vision), [Base Station](https://github.com/BinghamtonRover/Base-Station)
+- **Shared libraries**: [Protobuf](https://github.com/BinghamtonRover/Protobuf)
+- **Core programs**: [Dashboard](https://github.com/BinghamtonRover/Dashboard), [On-Rover code](https://github.com/BinghamtonRover/Rover-Code), [Base Station](https://github.com/BinghamtonRover/Base-Station)
 - **Pub packages**: [flutter_sdl_gamepad](https://pub.dev/packages/flutter_sdl_gamepad), [a_star](https://pub.dev/packages/a_star), [pub_cache](https://pub.dev/packages/pub_cache_server), [typed_isolate](https://pub.dev/packages/typed_isolate)
 
 ### Links
