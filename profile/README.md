@@ -17,7 +17,7 @@ Our firmware team specializes in low-level [Arduino](https://docs.arduino.cc/lea
 #### Firmware Repositories
 
 - **Shared libraries**: [Protobuf](https://github.com/BinghamtonRover/Protobuf), [Firmware Utilities](https://github.com/BinghamtonRover/Firmware-Utilities), [TMC](https://github.com/BinghamtonRover/TMC-Firmware)
-- **On-rover firmware**: [Drive](https://github.com/BinghamtonRover/Drive-Firmware), [Electrical](https://github.com/BinghamtonRover/Electrical-Firmware), [Arm](https://github.com/BinghamtonRover/Arm-firmware), [Science](https://github.com/BinghamtonRover/Science-firmware)
+- **On-rover firmware**: [Control](https://github.com/BinghamtonRover/Control-Firmware), [Arm](https://github.com/BinghamtonRover/Arm-firmware), [Science](https://github.com/BinghamtonRover/Science-firmware)
 - **Off-rover firmware**: [Antenna Control](https://github.com/BinghamtonRover/Antenna-Firmware), [Motor test board](https://github.com/BinghamtonRover/Motor-Test-Firmware)
 
 ### The Software Team
